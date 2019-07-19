@@ -1,14 +1,13 @@
 package com.community.rest.domain;
 
-import java.io.Serializable;
-import java.time.LocalDateTime;
-import javax.persistence.*;
-
 import com.community.rest.domain.enums.SocialType;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
+import java.io.Serializable;
+import java.time.LocalDateTime;
 
 @Getter
 @NoArgsConstructor
@@ -25,7 +24,6 @@ public class User implements Serializable {
     private String name;
 
     @Column
-    @JsonIgnore
     private String password;
 
     @Column
