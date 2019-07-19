@@ -1,3 +1,5 @@
+MVC / SPRING BOOT type RESTapi
+
 # MVC 기반 RESTapi
 rest-web 모듈
 - 클라이언트와 DB 분리
